@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 安全问题 / Security issue
+    url: https://github.com/huolanmiao/trail-research-skill/security/advisories/new
+    about: 请通过 Private Security Advisory 上报，不要开公开 Issue
+  - name: 输出内容不准 / 时效性
+    url: https://github.com/huolanmiao/trail-research-skill/blob/master/DISCLAIMER.md
+    about: 路况/政策/天气等时效性信息请以官方渠道为准，参阅免责声明

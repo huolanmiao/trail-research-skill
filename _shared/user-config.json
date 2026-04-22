@@ -1,0 +1,16 @@
+{
+  "_comment": "用户级配置。修改此文件以自定义 trail-research skill 的默认行为。",
+  "output_dir": ".",
+  "mode": "general",
+  "pku_association": {
+    "unit_name": "北京大学学生徒步越野协会",
+    "default_departure_city": "北京",
+    "default_transport_mode": "包车"
+  },
+  "defaults": {
+    "max_participants": 40,
+    "member_surcharge": 10,
+    "ribbon_cost": 5,
+    "insurance_cost": 2
+  }
+}

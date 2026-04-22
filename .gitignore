@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+evals/
+*.skill
+_shared/trail_research_data.json
+_shared/*.json
+!_shared/user-config.json

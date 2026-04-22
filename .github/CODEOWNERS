@@ -1,0 +1,30 @@
+# CODEOWNERS
+# https://docs.github.com/en/repositories/managing-your-repositories-settings-and-features/customizing-your-repository/about-code-owners
+#
+# Every line maps a path pattern to one or more owners. When a PR modifies
+# matching files, listed owners are automatically requested for review.
+# In combination with branch protection (require 1+ review from CODEOWNERS),
+# this prevents sensitive files from being merged without maintainer sign-off.
+
+# Default owner for anything in the repo
+*                               @huolanmiao
+
+# Skill behavior — any change here can alter what the agent does
+/SKILL.md                       @huolanmiao
+/references/                    @huolanmiao
+
+# Executable code — guard against injection / path traversal / RCE
+/scripts/                       @huolanmiao
+
+# Governance and legal
+/LICENSE                        @huolanmiao
+/LICENSE-docs                   @huolanmiao
+/NOTICE                         @huolanmiao
+/DISCLAIMER.md                  @huolanmiao
+/CONTRIBUTING.md                @huolanmiao
+/CODE_OF_CONDUCT.md             @huolanmiao
+/SECURITY.md                    @huolanmiao
+/.github/                       @huolanmiao
+
+# Association-derived assets
+/assets/                        @huolanmiao
